@@ -1,12 +1,68 @@
-# React + Vite
+# Rust Detection App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview  
+A smart corrosion detection application combining computer vision (YOLOv8) with an interactive web interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features  
+- Upload or capture images for rust detection  
+- Real-time analysis using a pre-trained YOLOv8 model  
+- Clean and simple React interface with mint-green theme  
+- Download results after analysis  
+- Demo video and documentation included  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack  
+- **Frontend:** React.js (via Vite), Material-UI  
+- **Backend/Model:** Python, PyTorch, YOLOv8, OpenCV  
+- **Other Tools:** NumPy, GitHub  
+
+---
+
+## 📂 Project Structure
+
+- `src/` → Vite + React frontend code  
+- `models/` → YOLO model (.pt files)  
+- `docs/` → SWE report, presentation  
+- `demo/` → Video + screenshots  
+- `requirements.txt` → Python dependencies  
+- `package.json` → Node.js + Vite dependencies  
+- `README.md` → Project description  
+
+
+
+## Installation & Setup  
+
+### 1. Clone Repository  
+
+git clone https://github.com/shahdfarid/rust-detection-web.git
+cd rust-detection-web
+2. Install Dependencies
+For Python (YOLOv8 model):
+
+For React frontend (Vite):
+npm install
+3. Run the App
+Run frontend:
+npm run dev
+
+Demo
+The demo video is available in demo/demo.mp4.
+
+Documents
+SWE Report (PDF)
+Project Presentation (PPTX)
+
+## Team
+
+Shahd Farid - 23102240  
+Mariam Ahmed – 21100875  
+Raghad Mohammed - 22101912  
+Mohamed Ibrahim - 22101042  
+Ahmed Adel - 22101163  
+Walid Tamer - 2210805  
+
+Computer Science & AI Student – Alamein University
+ 
