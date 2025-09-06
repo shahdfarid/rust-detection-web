@@ -40,10 +40,9 @@ A smart corrosion detection application combining computer vision (YOLOv8) with 
 git clone https://github.com/shahdfarid/rust-detection-web.git
 cd rust-detection-web
 2. Install Dependencies
-For Python (YOLOv8 model):
-
 For React frontend (Vite):
 npm install
+
 3. Run the App
 Run frontend:
 npm run dev
