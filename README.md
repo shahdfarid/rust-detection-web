@@ -20,17 +20,16 @@ A smart corrosion detection application combining computer vision (YOLOv8) with 
 
 ---
 
-## Project Structure  
+## 📂 Project Structure
 
-rust-detection-web/
-│
-├── src/ # Vite + React frontend code
-├── models/ # YOLO model (.pt files)
-├── docs/ # SWE report, presentation
-├── demo/ # Video + screenshots
-├── requirements.txt # Python dependencies
-├── package.json # Node.js + Vite dependencies
-└── README.md # Project description
+- `src/` → Vite + React frontend code  
+- `models/` → YOLO model (.pt files)  
+- `docs/` → SWE report, presentation  
+- `demo/` → Video + screenshots  
+- `requirements.txt` → Python dependencies  
+- `package.json` → Node.js + Vite dependencies  
+- `README.md` → Project description  
+
 
 ---
 
