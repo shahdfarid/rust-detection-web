@@ -1,74 +1,12 @@
-# rust-detection-web
+# React + Vite
 
-## Overview  
-A smart corrosion detection application combining computer vision (YOLOv8) with an interactive web interface
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## Features  
-- Upload or capture images for rust detection  
-- Real-time analysis using a pre-trained YOLOv8 model  
-- Clean and simple React interface with mint-green theme   
-- Demo video and documentation included  
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## Tech Stack  
-- **Frontend:** React.js (via Vite), Material-UI  
-- **Backend/Model:** Python, PyTorch, YOLOv8, OpenCV  
-- **Other Tools:** NumPy, GitHub 
-
----
-
-## 📂 Project Structure
-
-- `src/` → Vite + React frontend code  
-- `models/` → YOLO model (.pt files)  
-- `docs/` → SWE report, presentation  
-- `demo/` → Video + screenshots  
-- `requirements.txt` → Python dependencies  
-- `package.json` → Node.js + Vite dependencies  
-- `README.md` → Project description  
-
-
----
-
-## Installation & Setup  
-
-1. Clone Repository  
-
-git clone https://github.com/shahdfarid/rust-detection-web.git
-cd rust-detection-web
-
-2. Install Dependencies
-   For React frontend:
-   npm install
-
-4. Run the App
-   Run frontend:
-   npm start
-   npm run dev
-
-
-##  Demo Video
-You can watch the demo here: [Demo Video](demo/demo.mp4)
-
-
-## Documents
-
--  [SWE Report (PDF)](deliverables/report.pdf)
--  [Project Presentation (PPTX)](deliverables/presentation.pptx)
-
-
-## Team
-
-Shahd Farid - 23102240  
-Mariam Ahmed Labib – 21100875  
-Raghad Mohammed Abo Refaey - 22101912  
-Mohamed Ibrahim Khamis - 22101042  
-Ahmed Adel Abdelrahman - 22101163  
-Walid Tamer - 2210805  
-
-Computer Science & AIS Students – Alamein University
-
----
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

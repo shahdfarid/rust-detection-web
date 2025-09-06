@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+}
+
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  background: #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar .logo img {
+  width: 200px;        /* bigger logo */
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 12px; /* balanced spacing */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  /* full horizontal centering */
+}
+
+.sidebar .logo h2 {
+  font-size: 32px;    /* bigger title */
+  font-weight: bold;  /* bold title */
+  margin: 8px 0 0;    /* slightly more spacing */
+  color: #222;        /* strong contrast */
+  text-align: center; /* center under logo */
+}
+
+
+
+.btn {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #f0f0f0;
+  cursor: pointer;
+  text-align: left;
+  color: #222;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #e0e0e0;
+}
+
+.upload {
+  cursor: pointer;
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.image-box {
+  width: 640px;
+  height: 640px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  position: relative;
+  border: 1px solid #ddd;
+}
+
+.image-box img,
+.camera-box video {
+  width: 640px;
+  height: 640px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.camera-box video {
+  object-fit: cover;
+}
+
+.capture {
+  position: absolute;
+  bottom: 10px;
+  background: #4caf50;
+  color: white;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #222;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Dynamic Rust Overlay */
+.dynamic-box {
+  position: relative;
+}
+
+.rust-box {
+  position: absolute;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.rust-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rust-label {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  pointer-events: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.rust-box:hover .rust-label {
+  transform: scale(1.1);
+}
+
+/* Green for SAFE */
+.rust-box[data-status="SAFE"] {
+  border-color: green;
+}
+
+.rust-label[data-status="SAFE"] {
+  background-color: green;
+}
+
+/* Red for ALARM */
+.rust-box[data-status="ALARM"] {
+  border-color: red;
+}
+
+.rust-label[data-status="ALARM"] {
+  background-color: red;
+}
+
+/* Placeholder */
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.choose {
+  text-align: center;
+  cursor: pointer;
+  color: #666;
+}
+
+.choose svg {
+  font-size: 60px;
+  color: #aaa;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.download {
+  padding: 12px 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.secondary {
+  padding: 12px 20px;
+  background: #f0f0f0;
+  color: #222;
+  border: 1px solid #4caf50;
+  border-radius: 8px;
+  cursor: pointer;
+}
