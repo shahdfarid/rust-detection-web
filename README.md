@@ -61,12 +61,14 @@ You can watch the demo here: [Demo Video](demo/demo.mp4)
 
 
 ## Team
-Shahd Farid - 23102240
-Mariam Ahmed Labib – 21100875
-Raghad Mohammed Abo Refaey - 22101912
-Mohamed ibrahim khamis - 22101042
-Ahmed Adel Abdelrahman - 22101163
-Walid Tamer - 2210805
+
+Shahd Farid - 23102240  
+Mariam Ahmed Labib – 21100875  
+Raghad Mohammed Abo Refaey - 22101912  
+Mohamed Ibrahim Khamis - 22101042  
+Ahmed Adel Abdelrahman - 22101163  
+Walid Tamer - 2210805  
+
 
 Computer Science & AIS Students – Alamein University
 
