@@ -1,5 +1,9 @@
 # Rust Detection App
 
+![WhatsApp Image 2025-09-01 at 16 58 54_7382e555](https://github.com/user-attachments/assets/cf23e840-f624-48d4-8de5-8d96f10bf10f)
+![WhatsApp Image 2025-09-01 at 17 01 58_eadc5ced](https://github.com/user-attachments/assets/26741317-f890-4838-b689-e8c67fc2be29)
+
+
 ## Overview  
 A smart corrosion detection application combining computer vision (YOLOv8) with an interactive web interface.
 
